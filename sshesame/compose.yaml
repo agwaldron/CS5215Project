@@ -2,7 +2,7 @@ services:
   sshesame:
     image: ghcr.io/jaksi/sshesame
     ports:
-      - "2022:2022"
+      - "22:22"
     volumes:
       - sshesame-data:/data
       - ./sshesame.yaml:/config.yaml
